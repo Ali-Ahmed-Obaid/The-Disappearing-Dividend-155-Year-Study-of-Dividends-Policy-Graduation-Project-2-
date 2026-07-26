@@ -71,6 +71,10 @@ Somewhere between those two crises the dividend stopped being a share of profit 
 
 ---
 
+
+
+
+
 ## Repository contents Graduation Project 2 - Ali Obaid/
  ├── Dashboard.html live interactive dashboard, 7 pages
 
@@ -87,11 +91,22 @@ Somewhere between those two crises the dividend stopped being a share of profit 
  └── Power BI/ star schema, DAX measures, build guide
 
 
+
+
+
+
+
 ### Power BI
 
 A `.pbix` is a compiled binary and cannot be authored outside Power BI Desktop. The `Power BI` folder contains everything needed to build one: a 15-table star schema, a DAX library of about 55 measures
 
 ---
+
+
+
+
+
+
 
 ## Limitations
 
@@ -101,6 +116,9 @@ Stated in full in the report. In short:
 - No repurchase series — the 1982 interpretation is an inference from timing, not a direct test
 - Overlapping windows in the predictive regression — effective sample nearer 15 than 1,590
 - Cross-section is a snapshot of current index members, subject to survivorship
+
+
+
 
 ## License
 
