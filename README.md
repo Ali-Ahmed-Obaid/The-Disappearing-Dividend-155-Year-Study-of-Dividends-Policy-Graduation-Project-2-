@@ -72,19 +72,19 @@ Somewhere between those two crises the dividend stopped being a share of profit 
 ---
 
 ## Repository contents Graduation Project 2 - Ali Obaid/
-##├── Dashboard.html live interactive dashboard, 7 pages
+ ├── Dashboard.html live interactive dashboard, 7 pages
 
-##├── Report.pdf full written report with references
+ ├── Report.pdf full written report with references
 
-##├── Presentaion.pdf defence deck, 20 slides
+ ├── Presentaion.pdf defence deck, 20 slides
 
-##├── Comprehansive Exceel Model.xlsx 14-sheet workbook, all data and results
+ ├── Comprehansive Exceel Model.xlsx 14-sheet workbook, all data and results
 
-##├── Codes Files/ Python analysis scripts
+ ├── Codes Files/ Python analysis scripts
 
-##├── Data Files/ raw and processed CSVs
+ ├── Data Files/ raw and processed CSVs
 
-##└── Power BI/ star schema, DAX measures, build guide
+ └── Power BI/ star schema, DAX measures, build guide
 
 
 ### Power BI
