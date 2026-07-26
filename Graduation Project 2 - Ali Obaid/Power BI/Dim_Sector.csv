@@ -1,0 +1,12 @@
+Sector,Firms,Payers,SectorKey,PayerPct,PayerBand
+Communication Services,19,14,Communication Services,0.736842,Medium (70-90%)
+Consumer Discretionary,44,31,Consumer Discretionary,0.704545,Medium (70-90%)
+Consumer Staples,33,30,Consumer Staples,0.909091,High (>90%)
+Energy,19,19,Energy,1.000000,High (>90%)
+Financials,67,64,Financials,0.955224,High (>90%)
+Health Care,58,38,Health Care,0.655172,Low (<70%)
+Industrials,75,67,Industrials,0.893333,Medium (70-90%)
+Information Technology,64,38,Information Technology,0.593750,Low (<70%)
+Materials,25,25,Materials,1.000000,High (>90%)
+Real Estate,31,29,Real Estate,0.935484,High (>90%)
+Utilities,31,31,Utilities,1.000000,High (>90%)

@@ -1,0 +1,9 @@
+Era,EraSort,StartYear,EndYear,Regime,Years
+1871-1900  Gilded Age,0,1871,1900,Pre-1982,30
+1901-1929  Pre-Crash,1,1901,1929,Pre-1982,29
+1930-1945  Depression & War,2,1930,1945,Pre-1982,16
+1946-1972  Post-war boom,3,1946,1972,Pre-1982,27
+1973-1981  Stagflation,4,1973,1981,Pre-1982,9
+1982-1999  Buyback era begins,5,1982,1999,Post-1982,18
+2000-2008  Dot-com to GFC,6,2000,2008,Post-1982,9
+2009-2023  Post-GFC,7,2009,2023,Post-1982,15

@@ -1,0 +1,298 @@
+/* =====================================================================
+   DAX MEASURE LIBRARY
+   The Disappearing Dividend - 155 years of US payout policy
+   Financial Policy | Dr. Mohammed Alzahrani
+   Ali Ahmed Obaid | 201933250 | KFUPM
+   ---------------------------------------------------------------------
+   Create an empty table called _Measures first:
+     Home > Enter Data > name it _Measures > Load > delete Column1
+   Then paste these in order. Sections 1-2 first; later sections depend
+   on them.
+   ===================================================================== */
+
+
+/* ---------------------------------------------------------------------
+   1.  CORE LONG-RUN AGGREGATES  (Fact_Annual, grain = year)
+   --------------------------------------------------------------------- */
+
+Dividend = AVERAGE ( Fact_Annual[Dividend] )
+
+Earnings = AVERAGE ( Fact_Annual[Earnings] )
+
+Price = AVERAGE ( Fact_Annual[Price] )
+
+Real Dividend = AVERAGE ( Fact_Annual[RealDiv] )
+
+Real Earnings = AVERAGE ( Fact_Annual[RealEarn] )
+
+CAPE = AVERAGE ( Fact_Annual[CAPE] )
+
+Long Rate = AVERAGE ( Fact_Annual[Rate10Y] )
+
+
+/* ---------------------------------------------------------------------
+   2.  PAYOUT RATIOS
+   Computed from aggregates, never averaged - averaging a ratio across
+   years gives a different and wrong answer.
+   --------------------------------------------------------------------- */
+
+Payout Ratio = DIVIDE ( [Dividend], [Earnings] )
+
+Median Payout Ratio = MEDIANX ( VALUES ( Dim_Year[Year] ), [Payout Ratio] )
+
+Dividend Yield = DIVIDE ( [Dividend], [Price] )
+
+Median Dividend Yield = MEDIANX ( VALUES ( Dim_Year[Year] ), [Dividend Yield] )
+
+Earnings Yield = DIVIDE ( [Earnings], [Price] )
+
+Retention Ratio = 1 - [Payout Ratio]
+
+Payout Ratio PY =
+CALCULATE ( [Payout Ratio], Dim_Year[Year] = MAX ( Dim_Year[Year] ) - 1 )
+
+Payout Change YoY = [Payout Ratio] - [Payout Ratio PY]
+
+
+/* ---------------------------------------------------------------------
+   3.  GROWTH AND VOLATILITY
+   --------------------------------------------------------------------- */
+
+Dividend Growth = AVERAGE ( Fact_Annual[DivGrowth] )
+
+Earnings Growth = AVERAGE ( Fact_Annual[EarnGrowth] )
+
+Dividend Growth Volatility =
+STDEVX.P ( VALUES ( Dim_Year[Year] ), [Dividend Growth] )
+
+Earnings Growth Volatility =
+STDEVX.P ( VALUES ( Dim_Year[Year] ), [Earnings Growth] )
+
+Smoothing Ratio =
+/* THE key measure of this project.
+   Lower = the dividend is smoother relative to earnings. */
+DIVIDE ( [Dividend Growth Volatility], [Earnings Growth Volatility] )
+
+Smoothing Ratio Label =
+VAR S = [Smoothing Ratio]
+RETURN
+SWITCH (
+    TRUE (),
+    ISBLANK ( S ), "n/a",
+    S > 0.7,  "Dividend tracks earnings closely",
+    S > 0.4,  "Partial smoothing",
+    S > 0.15, "Heavy smoothing",
+              "Dividend almost fully detached from earnings"
+)
+
+Real Dividend CAGR =
+VAR Yrs  = MAX ( Dim_Year[Year] ) - MIN ( Dim_Year[Year] )
+VAR Frst = CALCULATE ( [Real Dividend], Dim_Year[Year] = MIN ( Dim_Year[Year] ) )
+VAR Last = CALCULATE ( [Real Dividend], Dim_Year[Year] = MAX ( Dim_Year[Year] ) )
+RETURN IF ( Yrs > 0 && Frst > 0, ( Last / Frst ) ^ ( 1 / Yrs ) - 1 )
+
+Real Earnings CAGR =
+VAR Yrs  = MAX ( Dim_Year[Year] ) - MIN ( Dim_Year[Year] )
+VAR Frst = CALCULATE ( [Real Earnings], Dim_Year[Year] = MIN ( Dim_Year[Year] ) )
+VAR Last = CALCULATE ( [Real Earnings], Dim_Year[Year] = MAX ( Dim_Year[Year] ) )
+RETURN IF ( Yrs > 0 && Frst > 0, ( Last / Frst ) ^ ( 1 / Yrs ) - 1 )
+
+
+/* ---------------------------------------------------------------------
+   4.  THE LINTNER RESULT  (Fact_Lintner, grain = era)
+   --------------------------------------------------------------------- */
+
+Speed of Adjustment = AVERAGE ( Fact_Lintner[c] )
+
+Lintner t stat = AVERAGE ( Fact_Lintner[t] )
+
+Lintner R2 = AVERAGE ( Fact_Lintner[r2] )
+
+Adjustment Half Life = AVERAGE ( Fact_Lintner[halflife] )
+
+Speed of Adjustment Pre 1982 =
+CALCULATE ( AVERAGE ( Fact_Lintner[c] ), Fact_Lintner[Regime] = "Pre-1982" )
+
+Speed of Adjustment Post 1982 =
+CALCULATE ( AVERAGE ( Fact_Lintner[c] ), Fact_Lintner[Regime] = "Post-1982" )
+
+Adjustment Collapse Ratio =
+DIVIDE ( [Speed of Adjustment Pre 1982], [Speed of Adjustment Post 1982] )
+
+Is Significant =
+IF ( ABS ( [Lintner t stat] ) >= 2, "Significant at 5%", "Not distinguishable from zero" )
+
+Lintner Verdict =
+VAR C = [Speed of Adjustment]
+RETURN
+SWITCH (
+    TRUE (),
+    C >= 0.30, "Close to Lintner's original 0.30 estimate",
+    C >= 0.15, "Slower than Lintner found",
+    C >= 0.05, "Dividend barely responds to earnings",
+               "No measurable response"
+)
+
+
+/* ---------------------------------------------------------------------
+   5.  CRISIS BEHAVIOUR  (Fact_Crises)
+   --------------------------------------------------------------------- */
+
+Earnings Drawdown = AVERAGE ( Fact_Crises[EarnDrawdown] )
+
+Dividend Drawdown = AVERAGE ( Fact_Crises[DivDrawdown] )
+
+Price Drawdown = AVERAGE ( Fact_Crises[PriceDrawdown] )
+
+Dividend Cushion =
+/* how much further earnings fell than the dividend */
+[Earnings Drawdown] - [Dividend Drawdown]
+
+Share of Shock Absorbed by Dividend =
+DIVIDE ( [Dividend Drawdown], [Earnings Drawdown] )
+
+Crisis Verdict =
+VAR S = [Share of Shock Absorbed by Dividend]
+RETURN
+SWITCH (
+    TRUE (),
+    ISBLANK ( S ), "n/a",
+    S > 0.8, "Dividend fell almost as far as earnings",
+    S > 0.4, "Dividend absorbed much of the shock",
+    S > 0.1, "Dividend largely protected",
+             "Dividend essentially untouched"
+)
+
+
+/* ---------------------------------------------------------------------
+   6.  MODERN CROSS-SECTION  (Fact_Firm / Dim_Company)
+   --------------------------------------------------------------------- */
+
+Firms = COUNTROWS ( Fact_Firm )
+
+Payers = CALCULATE ( COUNTROWS ( Fact_Firm ), Fact_Firm[Payer] = TRUE () )
+
+Non Payers = [Firms] - [Payers]
+
+Payer Share = DIVIDE ( [Payers], [Firms] )
+
+Median Firm Yield =
+CALCULATE ( MEDIAN ( Fact_Firm[DivYield] ), Fact_Firm[DivYield] > 0 )
+
+Median Firm PE = MEDIAN ( Fact_Firm[PE] )
+
+Median Firm PB = MEDIAN ( Fact_Firm[PB] )
+
+Median Firm Age = MEDIAN ( Fact_Firm[Age] )
+
+Total Market Cap Bn = SUM ( Fact_Firm[MarketCapBn] )
+
+Median Market Cap Bn = MEDIAN ( Fact_Firm[MarketCapBn] )
+
+Cap Weighted Yield =
+DIVIDE (
+    SUMX ( Fact_Firm, Fact_Firm[DivYield] * Fact_Firm[MarketCapBn] ),
+    [Total Market Cap Bn]
+)
+
+Payer Share vs Index =
+VAR Me    = [Payer Share]
+VAR Whole = CALCULATE ( [Payer Share], ALL ( Dim_Sector ), ALL ( Dim_AgeBand ) )
+RETURN Me - Whole
+
+
+/* ---------------------------------------------------------------------
+   7.  LIFE-CYCLE TEST  (Dim_AgeBand)
+   --------------------------------------------------------------------- */
+
+Payer Share by Age = [Payer Share]
+
+Life Cycle Gradient =
+/* payer share among the oldest band minus the youngest - the DeAngelo,
+   DeAngelo & Stulz (2006) prediction is that this is positive */
+VAR Young = CALCULATE ( [Payer Share], Dim_AgeBand[AgeBandKey] = "<25y" )
+VAR Old   = CALCULATE ( [Payer Share], Dim_AgeBand[AgeBandKey] = "100-150y" )
+RETURN Old - Young
+
+Life Cycle Verdict =
+IF (
+    [Life Cycle Gradient] > 0,
+    "Consistent with life-cycle theory",
+    "Inconsistent with life-cycle theory"
+)
+
+
+/* ---------------------------------------------------------------------
+   8.  PREDICTIVE REGRESSION  (Fact_Predictive)
+   --------------------------------------------------------------------- */
+
+Avg Starting Yield = AVERAGE ( Fact_Predictive[StartingDivYield] )
+
+Avg Forward Real Return = AVERAGE ( Fact_Predictive[Fwd10yRealReturn] )
+
+Yield Return Correlation =
+VAR T  = SUMMARIZE ( Fact_Predictive, Fact_Predictive[YearKey],
+            "@x", AVERAGE ( Fact_Predictive[StartingDivYield] ),
+            "@y", AVERAGE ( Fact_Predictive[Fwd10yRealReturn] ) )
+VAR N  = COUNTROWS ( T )
+VAR Sx = SUMX ( T, [@x] )
+VAR Sy = SUMX ( T, [@y] )
+VAR Sxy = SUMX ( T, [@x] * [@y] )
+VAR Sxx = SUMX ( T, [@x] ^ 2 )
+VAR Syy = SUMX ( T, [@y] ^ 2 )
+RETURN
+DIVIDE ( N * Sxy - Sx * Sy, SQRT ( ( N * Sxx - Sx ^ 2 ) * ( N * Syy - Sy ^ 2 ) ) )
+
+
+/* ---------------------------------------------------------------------
+   9.  GULF CONTRAST  (Fact_Aramco)
+   --------------------------------------------------------------------- */
+
+Aramco Distributions = SUM ( Fact_Aramco[DistributionsBn] )
+
+Aramco Free Cash Flow = SUM ( Fact_Aramco[FreeCashFlowBn] )
+
+Aramco Payout of FCF = DIVIDE ( [Aramco Distributions], [Aramco Free Cash Flow] )
+
+Aramco Payout Range =
+FORMAT ( MIN ( Fact_Aramco[PayoutOfFCF] ), "0%" ) & " to " &
+FORMAT ( MAX ( Fact_Aramco[PayoutOfFCF] ), "0%" )
+
+Gulf vs US Gap =
+[Aramco Payout of FCF] - CALCULATE ( AVERAGE ( Fact_Aramco[SP500PayoutNow] ) )
+
+
+/* ---------------------------------------------------------------------
+   10.  DYNAMIC TITLES AND FORMATTING HELPERS
+   --------------------------------------------------------------------- */
+
+Era Title =
+"Payout policy  |  " & SELECTEDVALUE ( Dim_Era[Era], "all eras, 1871-2023" )
+
+Selected Range =
+MIN ( Dim_Year[Year] ) & " to " & MAX ( Dim_Year[Year] ) &
+"  (" & ( MAX ( Dim_Year[Year] ) - MIN ( Dim_Year[Year] ) + 1 ) & " years)"
+
+Regime Colour =
+IF ( SELECTEDVALUE ( Dim_Year[Regime] ) = "Post-1982 (buyback era)", "#B8862B", "#0A6B78" )
+
+Payer Colour =
+SWITCH (
+    TRUE (),
+    [Payer Share] >= 0.95, "#1B7F4C",
+    [Payer Share] >= 0.80, "#0A6B78",
+    [Payer Share] >= 0.65, "#B8862B",
+                           "#AE3227"
+)
+
+Headline Payout Change =
+VAR Then = CALCULATE ( [Median Payout Ratio], Dim_Era[EraSort] = 0, ALL ( Dim_Year ) )
+VAR Now  = CALCULATE ( [Median Payout Ratio], Dim_Era[EraSort] = 7, ALL ( Dim_Year ) )
+RETURN
+"Payout ratio fell from " & FORMAT ( Then, "0.0%" ) & " to " & FORMAT ( Now, "0.0%" )
+
+Data Coverage =
+"Monthly observations: " & FORMAT ( COUNTROWS ( Fact_Monthly ), "#,0" ) &
+"  ·  Firms: " & FORMAT ( COUNTROWS ( Fact_Firm ), "#,0" )
+
+/* ===================================================================== */

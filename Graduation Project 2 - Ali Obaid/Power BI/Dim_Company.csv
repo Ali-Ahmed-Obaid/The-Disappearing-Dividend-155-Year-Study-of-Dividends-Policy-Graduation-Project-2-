@@ -1,0 +1,467 @@
+Symbol,Security,Sector,SubIndustry,Founded,Age,YearAdded,Payer,CompanyKey,AgeBand,PayerLabel
+MMM,3M,Industrials,Industrial Conglomerates,1902,124,1957,True,MMM,100-150y,Pays a dividend
+AOS,A. O. Smith,Industrials,Building Products,1916,110,2017,True,AOS,100-150y,Pays a dividend
+ABT,Abbott Laboratories,Health Care,Health Care Equipment,1888,138,1957,True,ABT,100-150y,Pays a dividend
+ABBV,AbbVie,Health Care,Biotechnology,2013,13,2012,True,ABBV,<25y,Pays a dividend
+ACN,Accenture,Information Technology,IT Consulting & Other Services,1989,37,2011,True,ACN,25-50y,Pays a dividend
+ADBE,Adobe Inc.,Information Technology,Application Software,1982,44,1997,False,ADBE,25-50y,Does not pay
+AMD,Advanced Micro Devices,Information Technology,Semiconductors,1969,57,2017,False,AMD,50-75y,Does not pay
+AES,AES Corporation,Utilities,Independent Power Producers & Energy Traders,1981,45,1998,True,AES,25-50y,Pays a dividend
+AFL,Aflac,Financials,Life & Health Insurance,1955,71,1999,True,AFL,50-75y,Pays a dividend
+A,Agilent Technologies,Health Care,Life Sciences Tools & Services,1999,27,2000,True,A,25-50y,Pays a dividend
+APD,Air Products,Materials,Industrial Gases,1940,86,1985,True,APD,75-100y,Pays a dividend
+ABNB,Airbnb,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",2008,18,2023,False,ABNB,<25y,Does not pay
+AKAM,Akamai Technologies,Information Technology,Internet Services & Infrastructure,1998,28,2007,False,AKAM,25-50y,Does not pay
+ALB,Albemarle Corporation,Materials,Specialty Chemicals,1994,32,2016,True,ALB,25-50y,Pays a dividend
+ARE,Alexandria Real Estate Equities,Real Estate,Office REITs,1994,32,2017,True,ARE,25-50y,Pays a dividend
+ALGN,Align Technology,Health Care,Health Care Supplies,1997,29,2017,False,ALGN,25-50y,Does not pay
+ALLE,Allegion,Industrials,Building Products,1908,118,2013,True,ALLE,100-150y,Pays a dividend
+LNT,Alliant Energy,Utilities,Electric Utilities,1917,109,2016,True,LNT,100-150y,Pays a dividend
+ALL,Allstate,Financials,Property & Casualty Insurance,1931,95,1995,True,ALL,75-100y,Pays a dividend
+GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services,1998,28,2006,True,GOOGL,25-50y,Pays a dividend
+GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services,1998,28,2014,True,GOOG,25-50y,Pays a dividend
+MO,Altria,Consumer Staples,Tobacco,1985,41,1957,True,MO,25-50y,Pays a dividend
+AMZN,Amazon,Consumer Discretionary,Broadline Retail,1994,32,2005,False,AMZN,25-50y,Does not pay
+AMCR,Amcor,Materials,Paper & Plastic Packaging Products & Materials,2019,7,2019,True,AMCR,<25y,Pays a dividend
+AEE,Ameren,Utilities,Multi-Utilities,1902,124,1991,True,AEE,100-150y,Pays a dividend
+AEP,American Electric Power,Utilities,Electric Utilities,1906,120,1957,True,AEP,100-150y,Pays a dividend
+AXP,American Express,Financials,Consumer Finance,1850,176,1976,True,AXP,150y+,Pays a dividend
+AIG,American International Group,Financials,Multi-line Insurance,1919,107,1980,True,AIG,100-150y,Pays a dividend
+AMT,American Tower,Real Estate,Telecom Tower REITs,1995,31,2007,True,AMT,25-50y,Pays a dividend
+AWK,American Water Works,Utilities,Water Utilities,1886,140,2016,True,AWK,100-150y,Pays a dividend
+AMP,Ameriprise Financial,Financials,Asset Management & Custody Banks,1894,132,2005,True,AMP,100-150y,Pays a dividend
+AME,Ametek,Industrials,Electrical Components & Equipment,1930,96,2013,True,AME,75-100y,Pays a dividend
+AMGN,Amgen,Health Care,Biotechnology,1980,46,1992,True,AMGN,25-50y,Pays a dividend
+APH,Amphenol,Information Technology,Electronic Components,1932,94,2008,True,APH,75-100y,Pays a dividend
+ADI,Analog Devices,Information Technology,Semiconductors,1965,61,1999,True,ADI,50-75y,Pays a dividend
+AON,Aon plc,Financials,Insurance Brokers,1982,44,1996,True,AON,25-50y,Pays a dividend
+APA,APA Corporation,Energy,Oil & Gas Exploration & Production,1954,72,1997,True,APA,50-75y,Pays a dividend
+AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",1977,49,1982,True,AAPL,25-50y,Pays a dividend
+AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment,1967,59,1995,True,AMAT,50-75y,Pays a dividend
+APTV,Aptiv,Consumer Discretionary,Automotive Parts & Equipment,1994,32,2012,False,APTV,25-50y,Does not pay
+ACGL,Arch Capital Group,Financials,Property & Casualty Insurance,1995,31,2022,False,ACGL,25-50y,Does not pay
+ADM,Archer Daniels Midland,Consumer Staples,Agricultural Products & Services,1902,124,1957,True,ADM,100-150y,Pays a dividend
+ANET,Arista Networks,Information Technology,Communications Equipment,2004,22,2018,False,ANET,<25y,Does not pay
+AJG,Arthur J. Gallagher & Co.,Financials,Insurance Brokers,1927,99,2016,True,AJG,75-100y,Pays a dividend
+AIZ,Assurant,Financials,Multi-line Insurance,1892,134,2007,True,AIZ,100-150y,Pays a dividend
+T,AT&T,Communication Services,Integrated Telecommunication Services,1983,43,1983,True,T,25-50y,Pays a dividend
+ATO,Atmos Energy,Utilities,Gas Utilities,1906,120,2019,True,ATO,100-150y,Pays a dividend
+ADSK,Autodesk,Information Technology,Application Software,1982,44,1989,False,ADSK,25-50y,Does not pay
+ADP,Automatic Data Processing,Industrials,Human Resource & Employment Services,1949,77,1981,True,ADP,75-100y,Pays a dividend
+AZO,AutoZone,Consumer Discretionary,Automotive Retail,1979,47,1997,False,AZO,25-50y,Does not pay
+AVB,AvalonBay Communities,Real Estate,Multi-Family Residential REITs,1978,48,2007,True,AVB,25-50y,Pays a dividend
+AVY,Avery Dennison,Materials,Paper & Plastic Packaging Products & Materials,1935,91,1987,True,AVY,75-100y,Pays a dividend
+AXON,Axon Enterprise,Industrials,Aerospace & Defense,1993,33,2023,False,AXON,25-50y,Does not pay
+BKR,Baker Hughes,Energy,Oil & Gas Equipment & Services,2017,9,2017,True,BKR,<25y,Pays a dividend
+BALL,Ball Corporation,Materials,"Metal, Glass & Plastic Containers",1880,146,1984,True,BALL,100-150y,Pays a dividend
+BAC,Bank of America,Financials,Diversified Banks,1998,28,1976,True,BAC,25-50y,Pays a dividend
+BAX,Baxter International,Health Care,Health Care Equipment,1931,95,1972,True,BAX,75-100y,Pays a dividend
+BDX,Becton Dickinson,Health Care,Health Care Equipment,1897,129,1972,True,BDX,100-150y,Pays a dividend
+BRK.B,Berkshire Hathaway,Financials,Multi-Sector Holdings,1839,187,2010,False,BRK.B,150y+,Does not pay
+BBY,Best Buy,Consumer Discretionary,Computer & Electronics Retail,1966,60,1999,True,BBY,50-75y,Pays a dividend
+TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,1976,50,2021,True,TECH,25-50y,Pays a dividend
+BIIB,Biogen,Health Care,Biotechnology,1978,48,2003,False,BIIB,25-50y,Does not pay
+BLK,BlackRock,Financials,Asset Management & Custody Banks,1988,38,2011,True,BLK,25-50y,Pays a dividend
+BX,Blackstone Inc.,Financials,Asset Management & Custody Banks,1985,41,2023,True,BX,25-50y,Pays a dividend
+BA,Boeing,Industrials,Aerospace & Defense,1916,110,1957,False,BA,100-150y,Does not pay
+BKNG,Booking Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",1996,30,2009,True,BKNG,25-50y,Pays a dividend
+BSX,Boston Scientific,Health Care,Health Care Equipment,1979,47,1995,False,BSX,25-50y,Does not pay
+BMY,Bristol Myers Squibb,Health Care,Pharmaceuticals,1989,37,1957,True,BMY,25-50y,Pays a dividend
+AVGO,Broadcom,Information Technology,Semiconductors,1961,65,2014,True,AVGO,50-75y,Pays a dividend
+BR,Broadridge Financial Solutions,Industrials,Data Processing & Outsourced Services,1962,64,2018,True,BR,50-75y,Pays a dividend
+BRO,Brown & Brown,Financials,Insurance Brokers,1939,87,2021,True,BRO,75-100y,Pays a dividend
+BF.B,Brown–Forman,Consumer Staples,Distillers & Vintners,1870,156,1982,False,BF.B,150y+,Does not pay
+BLDR,Builders FirstSource,Industrials,Building Products,1998,28,2023,False,BLDR,25-50y,Does not pay
+BG,Bunge Global,Consumer Staples,Agricultural Products & Services,1818,208,2023,True,BG,150y+,Pays a dividend
+BXP,"BXP, Inc.",Real Estate,Office REITs,1970,56,2006,True,BXP,50-75y,Pays a dividend
+CHRW,C.H. Robinson,Industrials,Air Freight & Logistics,1905,121,2007,True,CHRW,100-150y,Pays a dividend
+CDNS,Cadence Design Systems,Information Technology,Application Software,1988,38,2017,False,CDNS,25-50y,Does not pay
+CPT,Camden Property Trust,Real Estate,Multi-Family Residential REITs,1981,45,2022,True,CPT,25-50y,Pays a dividend
+COF,Capital One,Financials,Consumer Finance,1994,32,1998,True,COF,25-50y,Pays a dividend
+CAH,Cardinal Health,Health Care,Health Care Distributors,1971,55,1997,True,CAH,50-75y,Pays a dividend
+CCL,Carnival Corporation,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",1972,54,1998,True,CCL,50-75y,Pays a dividend
+CARR,Carrier Global,Industrials,Building Products,2020,6,2020,True,CARR,<25y,Pays a dividend
+CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment,1925,101,1957,True,CAT,100-150y,Pays a dividend
+CBOE,Cboe Global Markets,Financials,Financial Exchanges & Data,1973,53,2017,True,CBOE,50-75y,Pays a dividend
+CBRE,CBRE Group,Real Estate,Real Estate Services,1906,120,2006,False,CBRE,100-150y,Does not pay
+CDW,CDW Corporation,Information Technology,Technology Distributors,1984,42,2019,True,CDW,25-50y,Pays a dividend
+COR,Cencora,Health Care,Health Care Distributors,1985,41,2001,True,COR,25-50y,Pays a dividend
+CNC,Centene Corporation,Health Care,Managed Health Care,1984,42,2016,False,CNC,25-50y,Does not pay
+CNP,CenterPoint Energy,Utilities,Multi-Utilities,1882,144,1985,True,CNP,100-150y,Pays a dividend
+CF,CF Industries,Materials,Fertilizers & Agricultural Chemicals,1946,80,2008,True,CF,75-100y,Pays a dividend
+CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,1947,79,2021,False,CRL,75-100y,Does not pay
+SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,1971,55,1997,True,SCHW,50-75y,Pays a dividend
+CHTR,Charter Communications,Communication Services,Cable & Satellite,1993,33,2016,False,CHTR,25-50y,Does not pay
+CVX,Chevron Corporation,Energy,Integrated Oil & Gas,1879,147,1957,True,CVX,100-150y,Pays a dividend
+CMG,Chipotle Mexican Grill,Consumer Discretionary,Restaurants,1993,33,2011,False,CMG,25-50y,Does not pay
+CB,Chubb Limited,Financials,Property & Casualty Insurance,1985,41,2010,True,CB,25-50y,Pays a dividend
+CHD,Church & Dwight,Consumer Staples,Household Products,1847,179,2015,True,CHD,150y+,Pays a dividend
+CI,Cigna,Health Care,Health Care Services,1982,44,1976,True,CI,25-50y,Pays a dividend
+CINF,Cincinnati Financial,Financials,Property & Casualty Insurance,1950,76,1997,True,CINF,75-100y,Pays a dividend
+CTAS,Cintas,Industrials,Diversified Support Services,1929,97,2001,True,CTAS,75-100y,Pays a dividend
+CSCO,Cisco,Information Technology,Communications Equipment,1984,42,1993,True,CSCO,25-50y,Pays a dividend
+C,Citigroup,Financials,Diversified Banks,1998,28,1988,True,C,25-50y,Pays a dividend
+CFG,Citizens Financial Group,Financials,Regional Banks,1828,198,2016,True,CFG,150y+,Pays a dividend
+CLX,Clorox,Consumer Staples,Household Products,1913,113,1969,True,CLX,100-150y,Pays a dividend
+CME,CME Group,Financials,Financial Exchanges & Data,1848,178,2006,True,CME,150y+,Pays a dividend
+CMS,CMS Energy,Utilities,Multi-Utilities,1886,140,1957,True,CMS,100-150y,Pays a dividend
+KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages,1886,140,1957,True,KO,100-150y,Pays a dividend
+CTSH,Cognizant,Information Technology,IT Consulting & Other Services,1994,32,2006,True,CTSH,25-50y,Pays a dividend
+CL,Colgate-Palmolive,Consumer Staples,Household Products,1806,220,1957,True,CL,150y+,Pays a dividend
+CMCSA,Comcast,Communication Services,Cable & Satellite,1963,63,2002,True,CMCSA,50-75y,Pays a dividend
+COP,ConocoPhillips,Energy,Oil & Gas Exploration & Production,2002,24,1957,True,COP,<25y,Pays a dividend
+ED,Consolidated Edison,Utilities,Multi-Utilities,1823,203,1957,True,ED,150y+,Pays a dividend
+STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,1945,81,2005,True,STZ,75-100y,Pays a dividend
+CEG,Constellation Energy,Utilities,Electric Utilities,1999,27,2022,True,CEG,25-50y,Pays a dividend
+COO,Cooper Companies (The),Health Care,Health Care Supplies,1958,68,2016,False,COO,50-75y,Does not pay
+CPRT,Copart,Industrials,Diversified Support Services,1982,44,2018,False,CPRT,25-50y,Does not pay
+GLW,Corning Inc.,Information Technology,Electronic Components,1851,175,1995,True,GLW,150y+,Pays a dividend
+CPAY,Corpay,Financials,Transaction & Payment Processing Services,2000,26,2018,False,CPAY,25-50y,Does not pay
+CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals,2019,7,2019,True,CTVA,<25y,Pays a dividend
+CSGP,CoStar Group,Real Estate,Real Estate Services,1987,39,2022,False,CSGP,25-50y,Does not pay
+COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail,1976,50,1993,True,COST,25-50y,Pays a dividend
+CRWD,CrowdStrike,Information Technology,Systems Software,2011,15,2024,False,CRWD,<25y,Does not pay
+CCI,Crown Castle,Real Estate,Telecom Tower REITs,1994,32,2012,True,CCI,25-50y,Pays a dividend
+CSX,CSX Corporation,Industrials,Rail Transportation,1980,46,1957,True,CSX,25-50y,Pays a dividend
+CMI,Cummins,Industrials,Construction Machinery & Heavy Transportation Equipment,1919,107,1965,True,CMI,100-150y,Pays a dividend
+CVS,CVS Health,Health Care,Health Care Services,1996,30,1957,True,CVS,25-50y,Pays a dividend
+DHR,Danaher Corporation,Health Care,Life Sciences Tools & Services,1969,57,1998,True,DHR,50-75y,Pays a dividend
+DRI,Darden Restaurants,Consumer Discretionary,Restaurants,1938,88,1995,True,DRI,75-100y,Pays a dividend
+DVA,DaVita,Health Care,Health Care Services,1979,47,2008,False,DVA,25-50y,Does not pay
+DECK,Deckers Brands,Consumer Discretionary,Footwear,1973,53,2024,False,DECK,50-75y,Does not pay
+DE,Deere & Company,Industrials,Agricultural & Farm Machinery,1837,189,1957,True,DE,150y+,Pays a dividend
+DELL,Dell Technologies,Information Technology,"Technology Hardware, Storage & Peripherals",2016,10,2024,True,DELL,<25y,Pays a dividend
+DAL,Delta Air Lines,Industrials,Passenger Airlines,1929,97,2013,True,DAL,75-100y,Pays a dividend
+DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,1971,55,2000,True,DVN,50-75y,Pays a dividend
+DXCM,Dexcom,Health Care,Health Care Equipment,1999,27,2020,False,DXCM,25-50y,Does not pay
+FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,2007,19,2018,True,FANG,<25y,Pays a dividend
+DLR,Digital Realty,Real Estate,Data Center REITs,2004,22,2016,True,DLR,<25y,Pays a dividend
+DG,Dollar General,Consumer Staples,Consumer Staples Merchandise Retail,1939,87,2012,True,DG,75-100y,Pays a dividend
+DLTR,Dollar Tree,Consumer Staples,Consumer Staples Merchandise Retail,1986,40,2011,False,DLTR,25-50y,Does not pay
+D,Dominion Energy,Utilities,Multi-Utilities,1983,43,2016,True,D,25-50y,Pays a dividend
+DPZ,Domino's,Consumer Discretionary,Restaurants,1960,66,2020,True,DPZ,50-75y,Pays a dividend
+DOV,Dover Corporation,Industrials,Industrial Machinery & Supplies & Components,1955,71,1985,True,DOV,50-75y,Pays a dividend
+DOW,Dow Inc.,Materials,Commodity Chemicals,2019,7,2019,True,DOW,<25y,Pays a dividend
+DHI,D. R. Horton,Consumer Discretionary,Homebuilding,1978,48,2005,True,DHI,25-50y,Pays a dividend
+DTE,DTE Energy,Utilities,Multi-Utilities,1995,31,1957,True,DTE,25-50y,Pays a dividend
+DUK,Duke Energy,Utilities,Electric Utilities,1904,122,1976,True,DUK,100-150y,Pays a dividend
+DD,DuPont,Materials,Specialty Chemicals,2017,9,2019,True,DD,<25y,Pays a dividend
+ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,1911,115,1957,True,ETN,100-150y,Pays a dividend
+EBAY,eBay Inc.,Consumer Discretionary,Broadline Retail,1995,31,2002,True,EBAY,25-50y,Pays a dividend
+ECL,Ecolab,Materials,Specialty Chemicals,1923,103,1989,True,ECL,100-150y,Pays a dividend
+EIX,Edison International,Utilities,Electric Utilities,1886,140,1957,True,EIX,100-150y,Pays a dividend
+EW,Edwards Lifesciences,Health Care,Health Care Equipment,1958,68,2011,False,EW,50-75y,Does not pay
+EA,Electronic Arts,Communication Services,Interactive Home Entertainment,1982,44,2002,True,EA,25-50y,Pays a dividend
+ELV,Elevance Health,Health Care,Managed Health Care,2014,12,2002,True,ELV,<25y,Pays a dividend
+EMR,Emerson Electric,Industrials,Electrical Components & Equipment,1890,136,1965,True,EMR,100-150y,Pays a dividend
+ETR,Entergy,Utilities,Electric Utilities,1913,113,1957,True,ETR,100-150y,Pays a dividend
+EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,1999,27,2000,True,EOG,25-50y,Pays a dividend
+EQT,EQT Corporation,Energy,Oil & Gas Exploration & Production,1888,138,2022,True,EQT,100-150y,Pays a dividend
+EFX,Equifax,Industrials,Research & Consulting Services,1899,127,1997,True,EFX,100-150y,Pays a dividend
+EQIX,Equinix,Real Estate,Data Center REITs,1998,28,2015,True,EQIX,25-50y,Pays a dividend
+EQR,Equity Residential,Real Estate,Multi-Family Residential REITs,1969,57,2001,True,EQR,50-75y,Pays a dividend
+ERIE,Erie Indemnity,Financials,Insurance Brokers,1925,101,2024,True,ERIE,100-150y,Pays a dividend
+ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,1971,55,2014,True,ESS,50-75y,Pays a dividend
+EL,Estée Lauder Companies (The),Consumer Staples,Personal Care Products,1946,80,2006,True,EL,75-100y,Pays a dividend
+EG,Everest Group,Financials,Reinsurance,1973,53,2017,True,EG,50-75y,Pays a dividend
+EVRG,Evergy,Utilities,Electric Utilities,1909,117,2018,True,EVRG,100-150y,Pays a dividend
+ES,Eversource Energy,Utilities,Electric Utilities,1966,60,2009,True,ES,50-75y,Pays a dividend
+EXC,Exelon,Utilities,Electric Utilities,2000,26,1957,True,EXC,25-50y,Pays a dividend
+EXPE,Expedia Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",1996,30,2007,True,EXPE,25-50y,Pays a dividend
+EXPD,Expeditors International,Industrials,Air Freight & Logistics,1979,47,2007,True,EXPD,25-50y,Pays a dividend
+EXR,Extra Space Storage,Real Estate,Self-Storage REITs,1977,49,2016,True,EXR,25-50y,Pays a dividend
+XOM,ExxonMobil,Energy,Integrated Oil & Gas,1999,27,1957,True,XOM,25-50y,Pays a dividend
+FFIV,"F5, Inc.",Information Technology,Communications Equipment,1996,30,2010,False,FFIV,25-50y,Does not pay
+FDS,FactSet,Financials,Financial Exchanges & Data,1978,48,2021,True,FDS,25-50y,Pays a dividend
+FICO,Fair Isaac,Information Technology,Application Software,1956,70,2023,False,FICO,50-75y,Does not pay
+FAST,Fastenal,Industrials,Trading Companies & Distributors,1967,59,2008,True,FAST,50-75y,Pays a dividend
+FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,1962,64,2016,True,FRT,50-75y,Pays a dividend
+FDX,FedEx,Industrials,Air Freight & Logistics,1971,55,1980,True,FDX,50-75y,Pays a dividend
+FIS,Fidelity National Information Services,Financials,Transaction & Payment Processing Services,1968,58,2006,True,FIS,50-75y,Pays a dividend
+FITB,Fifth Third Bancorp,Financials,Regional Banks,1858,168,1996,True,FITB,150y+,Pays a dividend
+FSLR,First Solar,Information Technology,Semiconductors,1999,27,2022,False,FSLR,25-50y,Does not pay
+FE,FirstEnergy,Utilities,Electric Utilities,1997,29,1997,True,FE,25-50y,Pays a dividend
+F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,1903,123,1957,True,F,100-150y,Pays a dividend
+FTNT,Fortinet,Information Technology,Systems Software,2000,26,2018,False,FTNT,25-50y,Does not pay
+FTV,Fortive,Industrials,Industrial Machinery & Supplies & Components,2016,10,2016,True,FTV,<25y,Pays a dividend
+FOXA,Fox Corporation (Class A),Communication Services,Broadcasting,2019,7,2019,True,FOXA,<25y,Pays a dividend
+FOX,Fox Corporation (Class B),Communication Services,Broadcasting,2019,7,2019,True,FOX,<25y,Pays a dividend
+BEN,Franklin Resources,Financials,Asset Management & Custody Banks,1947,79,1998,True,BEN,75-100y,Pays a dividend
+FCX,Freeport-McMoRan,Materials,Copper,1912,114,2011,True,FCX,100-150y,Pays a dividend
+GRMN,Garmin,Consumer Discretionary,Consumer Electronics,1989,37,2012,True,GRMN,25-50y,Pays a dividend
+IT,Gartner,Information Technology,IT Consulting & Other Services,1979,47,2017,False,IT,25-50y,Does not pay
+GE,GE Aerospace,Industrials,Aerospace & Defense,1892,134,1957,True,GE,100-150y,Pays a dividend
+GEHC,GE HealthCare,Health Care,Health Care Equipment,1994,32,2023,True,GEHC,25-50y,Pays a dividend
+GEV,GE Vernova,Industrials,Heavy Electrical Equipment,2024,2,2024,True,GEV,<25y,Pays a dividend
+GEN,Gen Digital,Information Technology,Systems Software,1982,44,2003,True,GEN,25-50y,Pays a dividend
+GNRC,Generac,Industrials,Heavy Electrical Equipment,1959,67,2021,False,GNRC,50-75y,Does not pay
+GD,General Dynamics,Industrials,Aerospace & Defense,1899,127,1957,True,GD,100-150y,Pays a dividend
+GIS,General Mills,Consumer Staples,Packaged Foods & Meats,1856,170,1957,True,GIS,150y+,Pays a dividend
+GM,General Motors,Consumer Discretionary,Automobile Manufacturers,1908,118,2013,True,GM,100-150y,Pays a dividend
+GPC,Genuine Parts Company,Consumer Discretionary,Distributors,1925,101,1973,True,GPC,100-150y,Pays a dividend
+GILD,Gilead Sciences,Health Care,Biotechnology,1987,39,2004,True,GILD,25-50y,Pays a dividend
+GPN,Global Payments,Financials,Transaction & Payment Processing Services,2000,26,2016,True,GPN,25-50y,Pays a dividend
+GL,Globe Life,Financials,Life & Health Insurance,1900,126,1989,True,GL,100-150y,Pays a dividend
+GDDY,GoDaddy,Information Technology,Internet Services & Infrastructure,1997,29,2024,False,GDDY,25-50y,Does not pay
+GS,Goldman Sachs,Financials,Investment Banking & Brokerage,1869,157,2002,True,GS,150y+,Pays a dividend
+HAL,Halliburton,Energy,Oil & Gas Equipment & Services,1919,107,1957,True,HAL,100-150y,Pays a dividend
+HIG,Hartford (The),Financials,Property & Casualty Insurance,1810,216,1957,True,HIG,150y+,Pays a dividend
+HAS,Hasbro,Consumer Discretionary,Leisure Products,1923,103,1984,True,HAS,100-150y,Pays a dividend
+HCA,HCA Healthcare,Health Care,Health Care Facilities,1968,58,2015,True,HCA,50-75y,Pays a dividend
+DOC,Healthpeak Properties,Real Estate,Health Care REITs,1985,41,2008,True,DOC,25-50y,Pays a dividend
+HSIC,Henry Schein,Health Care,Health Care Distributors,1932,94,2015,False,HSIC,75-100y,Does not pay
+HSY,Hershey Company (The),Consumer Staples,Packaged Foods & Meats,1894,132,1957,True,HSY,100-150y,Pays a dividend
+HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals",2015,11,2015,True,HPE,<25y,Pays a dividend
+HLT,Hilton Worldwide,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",1919,107,2017,True,HLT,100-150y,Pays a dividend
+HD,Home Depot (The),Consumer Discretionary,Home Improvement Retail,1978,48,1988,True,HD,25-50y,Pays a dividend
+HON,Honeywell Technologies,Industrials,Industrial Conglomerates,1906,120,1957,True,HON,100-150y,Pays a dividend
+HRL,Hormel Foods,Consumer Staples,Packaged Foods & Meats,1891,135,2009,True,HRL,100-150y,Pays a dividend
+HST,Host Hotels & Resorts,Real Estate,Hotel & Resort REITs,1993,33,2007,True,HST,25-50y,Pays a dividend
+HWM,Howmet Aerospace,Industrials,Aerospace & Defense,1888,138,2016,True,HWM,100-150y,Pays a dividend
+HPQ,HP Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",1939,87,1974,True,HPQ,75-100y,Pays a dividend
+HUBB,Hubbell Incorporated,Industrials,Industrial Machinery & Supplies & Components,1888,138,2023,True,HUBB,100-150y,Pays a dividend
+HUM,Humana,Health Care,Managed Health Care,1961,65,2012,True,HUM,50-75y,Pays a dividend
+HBAN,Huntington Bancshares,Financials,Regional Banks,1866,160,1997,True,HBAN,150y+,Pays a dividend
+HII,Huntington Ingalls Industries,Industrials,Aerospace & Defense,2011,15,2018,True,HII,<25y,Pays a dividend
+IBM,IBM,Information Technology,IT Consulting & Other Services,1911,115,1957,True,IBM,100-150y,Pays a dividend
+IEX,IDEX Corporation,Industrials,Industrial Machinery & Supplies & Components,1988,38,2019,True,IEX,25-50y,Pays a dividend
+IDXX,Idexx Laboratories,Health Care,Health Care Equipment,1983,43,2017,False,IDXX,25-50y,Does not pay
+ITW,Illinois Tool Works,Industrials,Industrial Machinery & Supplies & Components,1912,114,1986,True,ITW,100-150y,Pays a dividend
+INCY,Incyte,Health Care,Biotechnology,1991,35,2017,False,INCY,25-50y,Does not pay
+IR,Ingersoll Rand,Industrials,Industrial Machinery & Supplies & Components,1859,167,2020,True,IR,150y+,Pays a dividend
+PODD,Insulet Corporation,Health Care,Health Care Equipment,2000,26,2023,False,PODD,25-50y,Does not pay
+INTC,Intel,Information Technology,Semiconductors,1968,58,1976,False,INTC,50-75y,Does not pay
+ICE,Intercontinental Exchange,Financials,Financial Exchanges & Data,2000,26,2007,True,ICE,25-50y,Pays a dividend
+IFF,International Flavors & Fragrances,Materials,Specialty Chemicals,1958,68,1976,True,IFF,50-75y,Pays a dividend
+IP,International Paper,Materials,Paper & Plastic Packaging Products & Materials,1898,128,1957,True,IP,100-150y,Pays a dividend
+INTU,Intuit,Information Technology,Application Software,1983,43,2000,True,INTU,25-50y,Pays a dividend
+ISRG,Intuitive Surgical,Health Care,Health Care Equipment,1995,31,2008,False,ISRG,25-50y,Does not pay
+IVZ,Invesco,Financials,Asset Management & Custody Banks,1935,91,2008,True,IVZ,75-100y,Pays a dividend
+INVH,Invitation Homes,Real Estate,Single-Family Residential REITs,2012,14,2022,True,INVH,<25y,Pays a dividend
+IQV,IQVIA,Health Care,Life Sciences Tools & Services,1982,44,2017,False,IQV,25-50y,Does not pay
+IRM,Iron Mountain,Real Estate,Other Specialized REITs,1951,75,2009,True,IRM,50-75y,Pays a dividend
+JBHT,J.B. Hunt,Industrials,Cargo Ground Transportation,1961,65,2015,True,JBHT,50-75y,Pays a dividend
+JBL,Jabil,Information Technology,Electronic Manufacturing Services,1966,60,2023,True,JBL,50-75y,Pays a dividend
+JKHY,Jack Henry & Associates,Financials,Transaction & Payment Processing Services,1976,50,2018,True,JKHY,25-50y,Pays a dividend
+J,Jacobs Solutions,Industrials,Construction & Engineering,1947,79,2007,True,J,75-100y,Pays a dividend
+JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,1886,140,1973,True,JNJ,100-150y,Pays a dividend
+JCI,Johnson Controls,Industrials,Building Products,1885,141,2010,True,JCI,100-150y,Pays a dividend
+JPM,JPMorgan Chase,Financials,Diversified Banks,2000,26,1975,True,JPM,25-50y,Pays a dividend
+KVUE,Kenvue,Consumer Staples,Personal Care Products,2022,4,2023,True,KVUE,<25y,Pays a dividend
+KDP,Keurig Dr Pepper,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,1981,45,2022,True,KDP,25-50y,Pays a dividend
+KEY,KeyCorp,Financials,Regional Banks,1825,201,1994,True,KEY,150y+,Pays a dividend
+KEYS,Keysight Technologies,Information Technology,Electronic Equipment & Instruments,2014,12,2018,False,KEYS,<25y,Does not pay
+KMB,Kimberly-Clark,Consumer Staples,Household Products,1872,154,1957,True,KMB,150y+,Pays a dividend
+KIM,Kimco Realty,Real Estate,Retail REITs,1958,68,2006,True,KIM,50-75y,Pays a dividend
+KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,1997,29,2012,True,KMI,25-50y,Pays a dividend
+KKR,KKR & Co.,Financials,Asset Management & Custody Banks,1976,50,2024,True,KKR,25-50y,Pays a dividend
+KLAC,KLA Corporation,Information Technology,Semiconductor Materials & Equipment,1975,51,1997,True,KLAC,50-75y,Pays a dividend
+KHC,Kraft Heinz,Consumer Staples,Packaged Foods & Meats,2015,11,2015,True,KHC,<25y,Pays a dividend
+KR,Kroger,Consumer Staples,Food Retail,1883,143,1957,True,KR,100-150y,Pays a dividend
+LHX,L3Harris,Industrials,Aerospace & Defense,2019,7,2008,True,LHX,<25y,Pays a dividend
+LH,Labcorp,Health Care,Health Care Services,1978,48,2004,True,LH,25-50y,Pays a dividend
+LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment,1980,46,2012,True,LRCX,25-50y,Pays a dividend
+LVS,Las Vegas Sands,Consumer Discretionary,Casinos & Gaming,1988,38,2019,True,LVS,25-50y,Pays a dividend
+LDOS,Leidos,Industrials,Diversified Support Services,1969,57,2019,True,LDOS,50-75y,Pays a dividend
+LEN,Lennar,Consumer Discretionary,Homebuilding,1954,72,2005,True,LEN,50-75y,Pays a dividend
+LLY,Lilly (Eli),Health Care,Pharmaceuticals,1876,150,1970,True,LLY,100-150y,Pays a dividend
+LIN,Linde plc,Materials,Industrial Gases,1879,147,1992,True,LIN,100-150y,Pays a dividend
+LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,2010,16,2019,False,LYV,<25y,Does not pay
+LMT,Lockheed Martin,Industrials,Aerospace & Defense,1995,31,1957,True,LMT,25-50y,Pays a dividend
+L,Loews Corporation,Financials,Multi-line Insurance,1959,67,1995,True,L,50-75y,Pays a dividend
+LOW,Lowe's,Consumer Discretionary,Home Improvement Retail,1904,122,1984,True,LOW,100-150y,Pays a dividend
+LULU,Lululemon Athletica,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",1998,28,2023,False,LULU,25-50y,Does not pay
+LYB,LyondellBasell,Materials,Specialty Chemicals,2007,19,2012,True,LYB,<25y,Pays a dividend
+MTB,M&T Bank,Financials,Regional Banks,1856,170,2004,True,MTB,150y+,Pays a dividend
+MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,2009,17,2011,True,MPC,<25y,Pays a dividend
+MAR,Marriott International,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",1927,99,1998,True,MAR,75-100y,Pays a dividend
+MLM,Martin Marietta Materials,Materials,Construction Materials,1993,33,2014,True,MLM,25-50y,Pays a dividend
+MAS,Masco,Industrials,Building Products,1929,97,1981,True,MAS,75-100y,Pays a dividend
+MA,Mastercard,Financials,Transaction & Payment Processing Services,1966,60,2008,True,MA,50-75y,Pays a dividend
+MKC,McCormick & Company,Consumer Staples,Packaged Foods & Meats,1889,137,2003,True,MKC,100-150y,Pays a dividend
+MCD,McDonald's,Consumer Discretionary,Restaurants,1940,86,1970,True,MCD,75-100y,Pays a dividend
+MCK,McKesson Corporation,Health Care,Health Care Distributors,1833,193,1999,True,MCK,150y+,Pays a dividend
+MDT,Medtronic,Health Care,Health Care Equipment,1949,77,1986,True,MDT,75-100y,Pays a dividend
+MRK,Merck & Co.,Health Care,Pharmaceuticals,1891,135,1957,True,MRK,100-150y,Pays a dividend
+META,Meta Platforms,Communication Services,Interactive Media & Services,2004,22,2013,True,META,<25y,Pays a dividend
+MET,MetLife,Financials,Life & Health Insurance,1868,158,2000,True,MET,150y+,Pays a dividend
+MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,1945,81,2016,False,MTD,75-100y,Does not pay
+MGM,MGM Resorts,Consumer Discretionary,Casinos & Gaming,1986,40,2017,False,MGM,25-50y,Does not pay
+MCHP,Microchip Technology,Information Technology,Semiconductors,1989,37,2007,True,MCHP,25-50y,Pays a dividend
+MU,Micron Technology,Information Technology,Semiconductors,1978,48,1994,True,MU,25-50y,Pays a dividend
+MSFT,Microsoft,Information Technology,Systems Software,1975,51,1994,True,MSFT,50-75y,Pays a dividend
+MAA,Mid-America Apartment Communities,Real Estate,Multi-Family Residential REITs,1977,49,2016,True,MAA,25-50y,Pays a dividend
+MRNA,Moderna,Health Care,Biotechnology,2010,16,2021,False,MRNA,<25y,Does not pay
+TAP,Molson Coors Beverage Company,Consumer Staples,Brewers,2005,21,1976,True,TAP,<25y,Pays a dividend
+MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,2012,14,2012,True,MDLZ,<25y,Pays a dividend
+MPWR,Monolithic Power Systems,Information Technology,Semiconductors,1997,29,2021,True,MPWR,25-50y,Pays a dividend
+MNST,Monster Beverage,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,2012,14,2012,False,MNST,<25y,Does not pay
+MCO,Moody's Corporation,Financials,Financial Exchanges & Data,1909,117,1998,True,MCO,100-150y,Pays a dividend
+MS,Morgan Stanley,Financials,Investment Banking & Brokerage,1935,91,1993,True,MS,75-100y,Pays a dividend
+MOS,Mosaic Company (The),Materials,Fertilizers & Agricultural Chemicals,2004,22,2011,True,MOS,<25y,Pays a dividend
+MSI,Motorola Solutions,Information Technology,Communications Equipment,1928,98,1957,True,MSI,75-100y,Pays a dividend
+MSCI,MSCI Inc.,Financials,Financial Exchanges & Data,1969,57,2018,True,MSCI,50-75y,Pays a dividend
+NDAQ,"Nasdaq, Inc.",Financials,Financial Exchanges & Data,1971,55,2008,True,NDAQ,50-75y,Pays a dividend
+NTAP,NetApp,Information Technology,"Technology Hardware, Storage & Peripherals",1992,34,1999,True,NTAP,25-50y,Pays a dividend
+NFLX,Netflix,Communication Services,Movies & Entertainment,1997,29,2010,False,NFLX,25-50y,Does not pay
+NEM,Newmont,Materials,Gold,1921,105,1969,True,NEM,100-150y,Pays a dividend
+NWSA,News Corp (Class A),Communication Services,Publishing,2013,13,2013,True,NWSA,<25y,Pays a dividend
+NWS,News Corp (Class B),Communication Services,Publishing,2013,13,2015,True,NWS,<25y,Pays a dividend
+NEE,NextEra Energy,Utilities,Multi-Utilities,1984,42,1976,True,NEE,25-50y,Pays a dividend
+NKE,"Nike, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",1964,62,1988,True,NKE,50-75y,Pays a dividend
+NI,NiSource,Utilities,Multi-Utilities,1912,114,2000,True,NI,100-150y,Pays a dividend
+NDSN,Nordson Corporation,Industrials,Industrial Machinery & Supplies & Components,1935,91,2022,True,NDSN,75-100y,Pays a dividend
+NSC,Norfolk Southern,Industrials,Rail Transportation,1881,145,1957,True,NSC,100-150y,Pays a dividend
+NTRS,Northern Trust,Financials,Asset Management & Custody Banks,1889,137,1998,True,NTRS,100-150y,Pays a dividend
+NOC,Northrop Grumman,Industrials,Aerospace & Defense,1994,32,1957,True,NOC,25-50y,Pays a dividend
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",2011,15,2017,False,NCLH,<25y,Does not pay
+NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,1992,34,2010,True,NRG,25-50y,Pays a dividend
+NUE,Nucor,Materials,Steel,1940,86,1985,True,NUE,75-100y,Pays a dividend
+NVDA,Nvidia,Information Technology,Semiconductors,1993,33,2001,True,NVDA,25-50y,Pays a dividend
+NVR,"NVR, Inc.",Consumer Discretionary,Homebuilding,1980,46,2019,False,NVR,25-50y,Does not pay
+NXPI,NXP Semiconductors,Information Technology,Semiconductors,1953,73,2021,True,NXPI,50-75y,Pays a dividend
+ORLY,O’Reilly Automotive,Consumer Discretionary,Automotive Retail,1957,69,2009,False,ORLY,50-75y,Does not pay
+OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,1920,106,1957,True,OXY,100-150y,Pays a dividend
+ODFL,Old Dominion,Industrials,Cargo Ground Transportation,1934,92,2019,True,ODFL,75-100y,Pays a dividend
+OMC,Omnicom Group,Communication Services,Advertising,1986,40,1997,True,OMC,25-50y,Pays a dividend
+ON,ON Semiconductor,Information Technology,Semiconductors,1999,27,2022,False,ON,25-50y,Does not pay
+OKE,Oneok,Energy,Oil & Gas Storage & Transportation,1906,120,2010,True,OKE,100-150y,Pays a dividend
+ORCL,Oracle Corporation,Information Technology,Application Software,1977,49,1989,True,ORCL,25-50y,Pays a dividend
+OTIS,Otis Worldwide,Industrials,Industrial Machinery & Supplies & Components,2020,6,2020,True,OTIS,<25y,Pays a dividend
+PCAR,Paccar,Industrials,Construction Machinery & Heavy Transportation Equipment,1905,121,1980,True,PCAR,100-150y,Pays a dividend
+PKG,Packaging Corporation of America,Materials,Paper & Plastic Packaging Products & Materials,1959,67,2017,True,PKG,50-75y,Pays a dividend
+PLTR,Palantir Technologies,Information Technology,Application Software,2003,23,2024,False,PLTR,<25y,Does not pay
+PANW,Palo Alto Networks,Information Technology,Systems Software,2005,21,2023,False,PANW,<25y,Does not pay
+PH,Parker Hannifin,Industrials,Industrial Machinery & Supplies & Components,1917,109,1985,True,PH,100-150y,Pays a dividend
+PAYX,Paychex,Industrials,Human Resource & Employment Services,1971,55,1998,True,PAYX,50-75y,Pays a dividend
+PYPL,PayPal,Financials,Transaction & Payment Processing Services,1998,28,2015,True,PYPL,25-50y,Pays a dividend
+PNR,Pentair,Industrials,Industrial Machinery & Supplies & Components,1966,60,2012,True,PNR,50-75y,Pays a dividend
+PEP,PepsiCo,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,1898,128,1957,True,PEP,100-150y,Pays a dividend
+PFE,Pfizer,Health Care,Pharmaceuticals,1849,177,1957,True,PFE,150y+,Pays a dividend
+PCG,PG&E Corporation,Utilities,Multi-Utilities,1905,121,2022,True,PCG,100-150y,Pays a dividend
+PM,Philip Morris International,Consumer Staples,Tobacco,2008,18,2008,True,PM,<25y,Pays a dividend
+PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,2012,14,2012,True,PSX,<25y,Pays a dividend
+PNW,Pinnacle West Capital,Utilities,Multi-Utilities,1985,41,1999,True,PNW,25-50y,Pays a dividend
+PNC,PNC Financial Services,Financials,Diversified Banks,1845,181,1988,True,PNC,150y+,Pays a dividend
+PPG,PPG Industries,Materials,Specialty Chemicals,1883,143,1957,True,PPG,100-150y,Pays a dividend
+PPL,PPL Corporation,Utilities,Electric Utilities,1920,106,2001,True,PPL,100-150y,Pays a dividend
+PFG,Principal Financial Group,Financials,Life & Health Insurance,1879,147,2002,True,PFG,100-150y,Pays a dividend
+PG,Procter & Gamble,Consumer Staples,Personal Care Products,1837,189,1957,True,PG,150y+,Pays a dividend
+PGR,Progressive Corporation,Financials,Property & Casualty Insurance,1937,89,1997,True,PGR,75-100y,Pays a dividend
+PLD,Prologis,Real Estate,Industrial REITs,1983,43,2003,True,PLD,25-50y,Pays a dividend
+PRU,Prudential Financial,Financials,Life & Health Insurance,1875,151,2002,True,PRU,150y+,Pays a dividend
+PEG,Public Service Enterprise Group,Utilities,Electric Utilities,1903,123,1957,True,PEG,100-150y,Pays a dividend
+PTC,PTC Inc.,Information Technology,Application Software,1985,41,2021,False,PTC,25-50y,Does not pay
+PSA,Public Storage,Real Estate,Self-Storage REITs,1972,54,2005,True,PSA,50-75y,Pays a dividend
+PHM,PulteGroup,Consumer Discretionary,Homebuilding,1956,70,1984,True,PHM,50-75y,Pays a dividend
+PWR,Quanta Services,Industrials,Construction & Engineering,1997,29,2009,True,PWR,25-50y,Pays a dividend
+QCOM,Qualcomm,Information Technology,Semiconductors,1985,41,1999,True,QCOM,25-50y,Pays a dividend
+DGX,Quest Diagnostics,Health Care,Health Care Services,1967,59,2002,True,DGX,50-75y,Pays a dividend
+RL,Ralph Lauren Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",1967,59,2007,True,RL,50-75y,Pays a dividend
+RJF,Raymond James Financial,Financials,Investment Banking & Brokerage,1962,64,2017,True,RJF,50-75y,Pays a dividend
+RTX,RTX Corporation,Industrials,Aerospace & Defense,1922,104,1957,True,RTX,100-150y,Pays a dividend
+O,Realty Income,Real Estate,Retail REITs,1969,57,2015,True,O,50-75y,Pays a dividend
+REG,Regency Centers,Real Estate,Retail REITs,1963,63,2017,True,REG,50-75y,Pays a dividend
+REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,1988,38,2013,True,REGN,25-50y,Pays a dividend
+RF,Regions Financial Corporation,Financials,Regional Banks,1971,55,1998,True,RF,50-75y,Pays a dividend
+RSG,Republic Services,Industrials,Environmental & Facilities Services,1998,28,2008,True,RSG,25-50y,Pays a dividend
+RMD,ResMed,Health Care,Health Care Equipment,1989,37,2017,True,RMD,25-50y,Pays a dividend
+RVTY,Revvity,Health Care,Health Care Equipment,1937,89,1985,True,RVTY,75-100y,Pays a dividend
+ROK,Rockwell Automation,Industrials,Electrical Components & Equipment,1903,123,2000,True,ROK,100-150y,Pays a dividend
+ROL,"Rollins, Inc.",Industrials,Environmental & Facilities Services,1948,78,2018,True,ROL,75-100y,Pays a dividend
+ROP,Roper Technologies,Information Technology,Electronic Equipment & Instruments,1981,45,2009,True,ROP,25-50y,Pays a dividend
+ROST,Ross Stores,Consumer Discretionary,Apparel Retail,1982,44,2009,True,ROST,25-50y,Pays a dividend
+RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",1997,29,2014,True,RCL,25-50y,Pays a dividend
+SPGI,S&P Global,Financials,Financial Exchanges & Data,1917,109,1957,True,SPGI,100-150y,Pays a dividend
+CRM,Salesforce,Information Technology,Application Software,1999,27,2008,True,CRM,25-50y,Pays a dividend
+SBAC,SBA Communications,Real Estate,Telecom Tower REITs,1989,37,2017,True,SBAC,25-50y,Pays a dividend
+SLB,Schlumberger,Energy,Oil & Gas Equipment & Services,1926,100,1957,True,SLB,75-100y,Pays a dividend
+STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals",1979,47,2012,True,STX,25-50y,Pays a dividend
+SRE,Sempra,Utilities,Multi-Utilities,1998,28,2017,True,SRE,25-50y,Pays a dividend
+NOW,ServiceNow,Information Technology,Systems Software,2003,23,2019,False,NOW,<25y,Does not pay
+SHW,Sherwin-Williams,Materials,Specialty Chemicals,1866,160,1964,True,SHW,150y+,Pays a dividend
+SPG,Simon Property Group,Real Estate,Retail REITs,2003,23,2002,True,SPG,<25y,Pays a dividend
+SWKS,Skyworks Solutions,Information Technology,Semiconductors,2002,24,2015,True,SWKS,<25y,Pays a dividend
+SJM,J.M. Smucker Company (The),Consumer Staples,Packaged Foods & Meats,1897,129,2008,True,SJM,100-150y,Pays a dividend
+SW,Smurfit Westrock,Materials,Paper & Plastic Packaging Products & Materials,1934,92,2024,True,SW,75-100y,Pays a dividend
+SNA,Snap-on,Industrials,Industrial Machinery & Supplies & Components,1920,106,1982,True,SNA,100-150y,Pays a dividend
+SOLV,Solventum,Health Care,Health Care Technology,2023,3,2024,False,SOLV,<25y,Does not pay
+SO,Southern Company,Utilities,Electric Utilities,1945,81,1957,True,SO,75-100y,Pays a dividend
+LUV,Southwest Airlines,Industrials,Passenger Airlines,1967,59,1994,True,LUV,50-75y,Pays a dividend
+SWK,Stanley Black & Decker,Industrials,Industrial Machinery & Supplies & Components,1843,183,1982,True,SWK,150y+,Pays a dividend
+SBUX,Starbucks,Consumer Discretionary,Restaurants,1971,55,2000,True,SBUX,50-75y,Pays a dividend
+STT,State Street Corporation,Financials,Asset Management & Custody Banks,1792,234,2003,True,STT,150y+,Pays a dividend
+STLD,Steel Dynamics,Materials,Steel,1993,33,2022,True,STLD,25-50y,Pays a dividend
+STE,Steris,Health Care,Health Care Equipment,1985,41,2019,True,STE,25-50y,Pays a dividend
+SYK,Stryker Corporation,Health Care,Health Care Equipment,1941,85,2000,True,SYK,75-100y,Pays a dividend
+SMCI,Supermicro,Information Technology,"Technology Hardware, Storage & Peripherals",1993,33,2024,False,SMCI,25-50y,Does not pay
+SYF,Synchrony Financial,Financials,Consumer Finance,2003,23,2015,True,SYF,<25y,Pays a dividend
+SNPS,Synopsys,Information Technology,Application Software,1986,40,2017,False,SNPS,25-50y,Does not pay
+SYY,Sysco,Consumer Staples,Food Distributors,1969,57,1986,True,SYY,50-75y,Pays a dividend
+TMUS,T-Mobile US,Communication Services,Wireless Telecommunication Services,1994,32,2019,True,TMUS,25-50y,Pays a dividend
+TROW,T. Rowe Price,Financials,Asset Management & Custody Banks,1937,89,2019,True,TROW,75-100y,Pays a dividend
+TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment,1993,33,2018,False,TTWO,25-50y,Does not pay
+TPR,"Tapestry, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",2017,9,2004,True,TPR,<25y,Pays a dividend
+TRGP,Targa Resources,Energy,Oil & Gas Storage & Transportation,2005,21,2022,True,TRGP,<25y,Pays a dividend
+TGT,Target Corporation,Consumer Staples,Consumer Staples Merchandise Retail,1902,124,1976,True,TGT,100-150y,Pays a dividend
+TEL,TE Connectivity,Information Technology,Electronic Manufacturing Services,2007,19,2011,True,TEL,<25y,Pays a dividend
+TDY,Teledyne Technologies,Information Technology,Electronic Equipment & Instruments,1960,66,2020,False,TDY,50-75y,Does not pay
+TER,Teradyne,Information Technology,Semiconductor Materials & Equipment,1960,66,2020,True,TER,50-75y,Pays a dividend
+TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers,2003,23,2020,False,TSLA,<25y,Does not pay
+TXN,Texas Instruments,Information Technology,Semiconductors,1930,96,2001,True,TXN,75-100y,Pays a dividend
+TXT,Textron,Industrials,Aerospace & Defense,1923,103,1978,True,TXT,100-150y,Pays a dividend
+TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,2006,20,2004,True,TMO,<25y,Pays a dividend
+TJX,TJX Companies,Consumer Discretionary,Apparel Retail,1987,39,1985,True,TJX,25-50y,Pays a dividend
+TSCO,Tractor Supply,Consumer Discretionary,Other Specialty Retail,1938,88,2014,True,TSCO,75-100y,Pays a dividend
+TT,Trane Technologies,Industrials,Building Products,1871,155,2010,True,TT,150y+,Pays a dividend
+TDG,TransDigm Group,Industrials,Aerospace & Defense,1993,33,2016,False,TDG,25-50y,Does not pay
+TRV,Travelers Companies (The),Financials,Property & Casualty Insurance,1853,173,2002,True,TRV,150y+,Pays a dividend
+TRMB,Trimble Inc.,Information Technology,Application Software,1978,48,2021,False,TRMB,25-50y,Does not pay
+TFC,Truist Financial,Financials,Diversified Banks,1872,154,1997,True,TFC,150y+,Pays a dividend
+TYL,Tyler Technologies,Information Technology,Application Software,1966,60,2020,False,TYL,50-75y,Does not pay
+TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,1935,91,2005,True,TSN,75-100y,Pays a dividend
+USB,U.S. Bancorp,Financials,Diversified Banks,1968,58,1999,True,USB,50-75y,Pays a dividend
+UBER,Uber,Industrials,Passenger Ground Transportation,2009,17,2023,False,UBER,<25y,Does not pay
+UDR,"UDR, Inc.",Real Estate,Multi-Family Residential REITs,1972,54,2016,True,UDR,50-75y,Pays a dividend
+ULTA,Ulta Beauty,Consumer Discretionary,Other Specialty Retail,1990,36,2016,False,ULTA,25-50y,Does not pay
+UNP,Union Pacific Corporation,Industrials,Rail Transportation,1862,164,1957,True,UNP,150y+,Pays a dividend
+UAL,United Airlines Holdings,Industrials,Passenger Airlines,1967,59,2015,False,UAL,50-75y,Does not pay
+UPS,United Parcel Service,Industrials,Air Freight & Logistics,1907,119,2002,True,UPS,100-150y,Pays a dividend
+URI,United Rentals,Industrials,Trading Companies & Distributors,1997,29,2014,True,URI,25-50y,Pays a dividend
+UNH,UnitedHealth Group,Health Care,Managed Health Care,1977,49,1994,True,UNH,25-50y,Pays a dividend
+UHS,Universal Health Services,Health Care,Health Care Facilities,1979,47,2014,True,UHS,25-50y,Pays a dividend
+VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,1980,46,2002,True,VLO,25-50y,Pays a dividend
+VTR,Ventas,Real Estate,Health Care REITs,1998,28,2009,True,VTR,25-50y,Pays a dividend
+VLTO,Veralto,Industrials,Environmental & Facilities Services,2023,3,2023,True,VLTO,<25y,Pays a dividend
+VRSN,Verisign,Information Technology,Internet Services & Infrastructure,1995,31,2006,True,VRSN,25-50y,Pays a dividend
+VRSK,Verisk Analytics,Industrials,Research & Consulting Services,1971,55,2015,True,VRSK,50-75y,Pays a dividend
+VZ,Verizon,Communication Services,Integrated Telecommunication Services,1983,43,1983,True,VZ,25-50y,Pays a dividend
+VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,1989,37,2013,False,VRTX,25-50y,Does not pay
+VTRS,Viatris,Health Care,Pharmaceuticals,1961,65,2004,True,VTRS,50-75y,Pays a dividend
+VICI,Vici Properties,Real Estate,Hotel & Resort REITs,2017,9,2022,True,VICI,<25y,Pays a dividend
+V,Visa Inc.,Financials,Transaction & Payment Processing Services,1958,68,2009,True,V,50-75y,Pays a dividend
+VST,Vistra Corp.,Utilities,Electric Utilities,2016,10,2024,True,VST,<25y,Pays a dividend
+VMC,Vulcan Materials Company,Materials,Construction Materials,1909,117,1999,True,VMC,100-150y,Pays a dividend
+WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,1967,59,2019,True,WRB,50-75y,Pays a dividend
+GWW,W. W. Grainger,Industrials,Industrial Machinery & Supplies & Components,1927,99,1981,True,GWW,75-100y,Pays a dividend
+WAB,Wabtec,Industrials,Construction Machinery & Heavy Transportation Equipment,1999,27,2019,True,WAB,25-50y,Pays a dividend
+WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail,1962,64,1982,True,WMT,50-75y,Pays a dividend
+DIS,Walt Disney Company (The),Communication Services,Movies & Entertainment,1923,103,1976,True,DIS,100-150y,Pays a dividend
+WBD,Warner Bros. Discovery,Communication Services,Broadcasting,2022,4,2022,False,WBD,<25y,Does not pay
+WM,Waste Management,Industrials,Environmental & Facilities Services,1968,58,1998,True,WM,50-75y,Pays a dividend
+WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,1958,68,2002,False,WAT,50-75y,Does not pay
+WEC,WEC Energy Group,Utilities,Electric Utilities,1896,130,2008,True,WEC,100-150y,Pays a dividend
+WFC,Wells Fargo,Financials,Diversified Banks,1852,174,1976,True,WFC,150y+,Pays a dividend
+WELL,Welltower,Real Estate,Health Care REITs,1970,56,2009,True,WELL,50-75y,Pays a dividend
+WST,West Pharmaceutical Services,Health Care,Health Care Supplies,1923,103,2020,True,WST,100-150y,Pays a dividend
+WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals",1970,56,2009,True,WDC,50-75y,Pays a dividend
+WY,Weyerhaeuser,Real Estate,Timber REITs,1900,126,1979,True,WY,100-150y,Pays a dividend
+WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,1908,118,1975,True,WMB,100-150y,Pays a dividend
+WTW,Willis Towers Watson,Financials,Insurance Brokers,2016,10,2016,True,WTW,<25y,Pays a dividend
+WYNN,Wynn Resorts,Consumer Discretionary,Casinos & Gaming,2002,24,2008,True,WYNN,<25y,Pays a dividend
+XEL,Xcel Energy,Utilities,Multi-Utilities,1909,117,1957,True,XEL,100-150y,Pays a dividend
+XYL,Xylem Inc.,Industrials,Industrial Machinery & Supplies & Components,2011,15,2011,True,XYL,<25y,Pays a dividend
+YUM,Yum! Brands,Consumer Discretionary,Restaurants,1997,29,1997,True,YUM,25-50y,Pays a dividend
+ZBRA,Zebra Technologies,Information Technology,Electronic Equipment & Instruments,1969,57,2019,False,ZBRA,50-75y,Does not pay
+ZBH,Zimmer Biomet,Health Care,Health Care Equipment,1927,99,2001,True,ZBH,75-100y,Pays a dividend
+ZTS,Zoetis,Health Care,Pharmaceuticals,1952,74,2013,True,ZTS,50-75y,Pays a dividend
