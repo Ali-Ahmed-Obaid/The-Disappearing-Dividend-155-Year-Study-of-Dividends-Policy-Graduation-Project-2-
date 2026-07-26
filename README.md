@@ -1,22 +1,22 @@
 # The Disappearing Dividend
 ### 155 Years of US Corporate Payout Policy, 1871–2023 — and What the Gulf Model Does Differently
 
-**Graduation Project 2 · Financial Policy**
-**Dr. Mohammed Alzahrani** &nbsp;|&nbsp; **Ali Ahmed Obaid · 201933250**
+**Graduation Project 2 · Financial Policy**  
+**Dr. Mohammed Alzahrani** &nbsp;|&nbsp; **Ali Ahmed Obaid · 201933250**  
 **KFUPM Business School (KBS) · King Fahd University of Petroleum & Minerals**
 
 <p align="center">
   <a href="https://ali-ahmed-obaid.github.io/The-Disappearing-Dividend-155-Year-Study-of-Dividends-Policy-Graduation-Project-2-/Graduation%20Project%202%20-%20Ali%20Obaid/Dashboard.html">
-    <img src="https://img.shields.io/badge/Live-Dashboard-0A6B78?style=for-the-badge" alt="Dashboard">
+    <img src="https://img.shields.io/badge/Live_Dashboard-0A6B78?style=for-the-badge" alt="Dashboard">
   </a>
   <a href="Graduation%20Project%202%20-%20Ali%20Obaid/Report.pdf">
-    <img src="https://img.shields.io/badge/Report-PDF-1A2833?style=for-the-badge" alt="Report">
+    <img src="https://img.shields.io/badge/Report-1A2833?style=for-the-badge" alt="Report">
   </a>
-  <a href="Graduation%20Project%202%20-%20Ali%20Obaid/Presentaion.pdf">
-    <img src="https://img.shields.io/badge/Slides-PDF-B8862B?style=for-the-badge" alt="Slides">
+  <a href="Graduation%20Project%202%20-%20Ali%20Obaid/Presentation.pdf">
+    <img src="https://img.shields.io/badge/Slides-B8862B?style=for-the-badge" alt="Slides">
   </a>
-  <a href="Graduation%20Project%202%20-%20Ali%20Obaid/Comprehansive%20Exceel%20Model.xlsx">
-    <img src="https://img.shields.io/badge/Excel-Model-217346?style=for-the-badge" alt="Excel Model">
+  <a href="Graduation%20Project%202%20-%20Ali%20Obaid/Excel-Model.xlsx">
+    <img src="https://img.shields.io/badge/Excel_Model-217346?style=for-the-badge" alt="Excel Model">
   </a>
 </p>
 
