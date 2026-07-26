@@ -57,6 +57,7 @@ Somewhere between those two crises the dividend stopped being a share of profit 
 
 ## Repository contents
 
+
 Graduation Project 2 - Ali Obaid/
 ├── Codes Files/             → Python analysis scripts (engine.py, export.py)
 ├── Data Files/              → Raw + processed datasets (14 Excel/CSV files)
@@ -67,49 +68,5 @@ Graduation Project 2 - Ali Obaid/
 └── Report.pdf               → 17-page written report with references
 
 
-### Power BI
-
-A `.pbix` is a compiled binary and cannot be authored outside Power BI Desktop. `Power BI/` contains everything that goes into one — a **15-table star schema** (3,546 rows), a **DAX library of ~55 measures**, and a **build guide** specifying every page, visual and field placement. Roughly 90 minutes to assemble. The HTML dashboard shows the same seven pages and runs live.
-
-### PDFs
-
-Both the deck and the report are included as PDFs with fonts embedded — use these for submission and presenting.
-
-## Method
-
-- **Lintner partial adjustment** — ΔDPS = a + c × (target payout × EPS − lagged DPS), estimated separately in eight eras and pooled pre/post-1982 with a common target
-- **Rolling 20-year smoothing ratio** — sd(dividend growth) ÷ sd(earnings growth), imposing no era boundaries, to confirm the break is not an artefact of chosen dates
-- **Crisis drawdown analysis** — peak-to-trough falls in earnings, dividends and price across nine episodes, 1873–2020
-- **Predictive regression** — subsequent 10-year annualised real total return on starting dividend yield (reported as descriptive; see limitations)
-- **Cross-sectional tests** — payer share by GICS sector and by firm age, testing DeAngelo, DeAngelo & Stulz (2006)
-
-## Limitations
-
-Stated in full in Section 8 of the report. In short:
-
-- **Index-level, not firm-level** for the long run — cannot separate composition change from firms changing policy
-- **No repurchase series** — the 1982 interpretation is an inference from timing, not a direct test. This is the principal gap and the obvious extension
-- **Overlapping windows** in the predictive regression — effective sample nearer 15 than 1,590; no significance claimed
-- **Era boundaries are chosen, not estimated** — the rolling analysis is included precisely so the finding doesn't depend on them
-- **Cross-section is a snapshot** of current index members, subject to survivorship
-
-## Reproducing
-
-```bash
-pip install pandas numpy openpyxl
-cd "Graduation Project 2 - Ali Obaid/Codes Files" && python engine.py
-python export.py
-
 License
 Academic project. Analysis is original work built on public data. Reuse with attribution.
-
-
----
-
-## ⚠️ Important Notes
-
-1. **I kept your actual file names exactly** (`Presentaion.pdf`, `Comperhansive Excel Model.xlsx`, `Codes Files`, etc.) so the links work.
-2. **The badges** link directly to your PDFs inside the folder — they will work once you paste this at the root.
-3. **If you want to look even more professional later:** Consider moving all files from `Graduation Project 2 - Ali Obaid` directly to the repo root (so people see `Codes Files/`, `Data Files/` immediately without clicking). But that's optional — what you have now is perfectly fine.
-
-**Paste this at the ROOT level, commit, and you're done.** 🎯
