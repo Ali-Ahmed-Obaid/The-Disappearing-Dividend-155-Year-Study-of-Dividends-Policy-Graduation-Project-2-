@@ -1,0 +1,2 @@
+# The-Disappearing-Dividend-155-Year-Study-of-Dividends-Policy-Graduation-Project-2-
+Evaluated 155 years (1871–2023) of U.S. dividend policy, benchmarking the shift from dividends to buybacks against Saudi Aramco's FCF distribution model. Built an automated Excel/Python analysis pipeline, analyzed 9 crises and 466 S&amp;P 500 firms, and delivered Web &amp; Power BI dashboards, a report, and an executive presentation.
