@@ -56,8 +56,6 @@ Somewhere between those two crises the dividend stopped being a share of profit 
 | [Saudi Aramco results](https://www.aramco.com/en/investors/annual-report) | Free cash flow and distributions | FY2019 → FY2025 |
 
 ## Repository contents
-
-
 Graduation Project 2 - Ali Obaid/
 ├── Codes Files/             → Python analysis scripts (engine.py, export.py)
 ├── Data Files/              → Raw + processed datasets (14 Excel/CSV files)
